@@ -1,0 +1,37 @@
+<VisualMicro>
+  <Program Name="nRF_Interference_Scanner" Ext=".ino" Location="\\server-4\personal projects\Christmas Lights\Komby Stuff\nRF_Interference_Scanner">
+    <Platform Name="arduino10x" Package="arduino" Platform="avr" Architecture="avr">
+      <Board Name="uno" Description="Arduino Uno" CoreFolder="C:\Users\jonc\Desktop\arduino-1.0.3\hardware\arduino\cores\arduino" VariantFullPath="C:\Users\jonc\Desktop\arduino-1.0.3\hardware\arduino\variants\standard" McuIdePath="C:\Users\jonc\Desktop\arduino-1.0.3" McuSketchBookPath="\\AVS-WIN2003\Users\jonc\My Documents\Arduino\" name="Arduino Uno" upload.protocol="arduino" upload.maximum_size="32256" upload.speed="115200" bootloader.low_fuses="0xff" bootloader.high_fuses="0xde" bootloader.extended_fuses="0x05" bootloader.path="optiboot" bootloader.file="optiboot_atmega328.hex" bootloader.unlock_bits="0x3F" bootloader.lock_bits="0x0F" build.mcu="atmega328p" build.f_cpu="16000000L" build.core="arduino" build.variant="standard" runtime.ide.path="C:\Users\jonc\Desktop\arduino-1.0.3" build.system.path="C:\Users\jonc\Desktop\arduino-1.0.3\hardware\arduino\system" runtime.ide.version="103" originalid="uno" build.core.vmresolved="C:\Users\jonc\Desktop\arduino-1.0.3\hardware\arduino\cores\arduino" build.core.parentfolder.vmresolved="C:\Users\jonc\Desktop\arduino-1.0.3\hardware\arduino\cores" build.core.coresparentfolder.vmresolved="C:\Users\jonc\Desktop\arduino-1.0.3\hardware\arduino" vm.core.include="arduino.h" vm.boardsource.path="C:\Users\jonc\Desktop\arduino-1.0.3\hardware\arduino" vm.platformname.name="avr" build.arch="AVR" ide.hint="Arduino 0023 and 1.0.x Ide" ide.location.key="Arduino" ide.location.ide.winreg="Arduino 1.0.x Application" ide.location.sketchbook.winreg="Arduino 1.0.x Sketchbook" ide.location.sketchbook.preferences="sketchbook.path" ide.location.sketchbook.default="%MYDOCUMENTS%\arduino" ide.location.preferences="%VM_APPDATA_ROAMING%\arduino\preferences.txt" ide.default.package="arduino" ide.default.platform="avr" ide.multiplatform="true" ide.includes="arduino.h" ide.platformswithoutpackage="true" ide.sketchfolder.platforms.exclude="avr" ide.includes.fallback="wprogram.h" ide.extension="ino" ide.extension.fallback="pde" ide.versionLTEQ="149" ide.exe="arduino.exe" ide.hosts="atmel" ide.url="http://arduino.cc/en/Main/Software" vm.debug="true" software="ARDUINO" ide.appid="arduino10x" location.sketchbook="\\AVS-WIN2003\Users\jonc\My Documents\Arduino\" build.variant.vmresolved="C:\Users\jonc\Desktop\arduino-1.0.3\hardware\arduino\variants\standard" compiler.path="C:\Users\jonc\Desktop\arduino-1.0.3\hardware\tools\avr\bin\" includes=" -I&quot;C:\Users\jonc\Desktop\arduino-1.0.3\hardware\arduino\cores\arduino&quot;  -I&quot;C:\Users\jonc\Desktop\arduino-1.0.3\hardware\arduino\variants\standard&quot;  -I&quot;C:\Program Files\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers\VM_DBG&quot;  -I&quot;C:\Users\jonc\Desktop\arduino-1.0.3\libraries\SPI&quot;  -I&quot;C:\Users\jonc\Desktop\arduino-1.0.3\libraries\RF24&quot; " build.path="C:\Users\jonc\AppData\Local\VMicro\Arduino\Builds\nRF_Interference_Scanner\uno" build.project_name="nRF_Interference_Scanner" build.variant.path="C:\Users\jonc\Desktop\arduino-1.0.3\hardware\arduino\variants\standard" archive_file="core.a" object_file="C:\Users\jonc\AppData\Local\VMicro\Arduino\Builds\nRF_Interference_Scanner\uno\RF24\RF24.cpp.o" source_file="C:\Users\jonc\Desktop\arduino-1.0.3\libraries\RF24\RF24.cpp" object_files="&quot;C:\Users\jonc\AppData\Local\VMicro\Arduino\Builds\nRF_Interference_Scanner\uno\nRF_Interference_Scanner.cpp.o&quot; &quot;C:\Users\jonc\AppData\Local\VMicro\Arduino\Builds\nRF_Interference_Scanner\uno\VM_DBG\VM_mem_check.c.o&quot; &quot;C:\Users\jonc\AppData\Local\VMicro\Arduino\Builds\nRF_Interference_Scanner\uno\VM_DBG\VM_DBG.cpp.o&quot; &quot;C:\Users\jonc\AppData\Local\VMicro\Arduino\Builds\nRF_Interference_Scanner\uno\SPI\SPI.cpp.o&quot; &quot;C:\Users\jonc\AppData\Local\VMicro\Arduino\Builds\nRF_Interference_Scanner\uno\RF24\RF24.cpp.o&quot; " build.architecture="avr" vmresolved.compiler.path="C:\Users\jonc\Desktop\arduino-1.0.3\hardware\tools\avr\bin\" vmresolved.tools.path="C:\Users\jonc\Desktop\arduino-1.0.3\hardware\tools\avr" />
+    </Platform>
+    <Compile IsDebugStart="1" CompilerErrors="0" ConfigurationName="Debug" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\jonc\AppData\Local\VMicro\Arduino\Builds\nRF_Interference_Scanner\uno" SketchName="nRF_Interference_Scanner" ReportDigitalPins="0" ReportAnalogPins="0" ReportI2C="0" ReportFreeMemory="0" IncludeDebug="1" LastDebugPreProcessorDefinitions="VM_DEBUG;VM_DEBUG_ENABLE 1;VM_DEBUG_BANDWIDTH_THROTTLE_MS 80;VM_DEBUGGER_TYPE_HARDWARESERIAL 0;VM_DEBUGGER_TYPE_SOFTWARESERIAL 1;VM_DEBUGGER_TYPE_FASTSERIAL 2;VM_DEBUGGER_TYPE_USB 3;VM_DEBUGGER_TYPE_TEENSY 4;VM_DEBUGGER_TYPE_UART 5;VM_DEBUGGER_TYPE_USART 6;VM_DEBUGGER_TYPE_USBSERIAL 7;VM_DEBUGGER_TYPE VM_DEBUGGER_TYPE_HARDWARESERIAL;" IncludesDebug="1" IsCompiled="1" />
+    <Debug DebugEnabled="1" />
+    <VCCodeModel>
+      <VCCodeMacros />
+    </VCCodeModel>
+    <BreakPoints>
+      <BreakPoint Index="1" Name="nRF_Interference_Scanner.ino, line 67" Id="6384c90d-6556-4686-ae71-2067a8a9c559" Enabled="1" Message="{millis()}" MessageTextType="2" PreProcessedMessage="{0}" Condition="millis()&gt;0 || millis()&gt;1" ConditionType="1" CurrentHits="0" File="\\server-4\personal projects\christmas lights\komby stuff\nrf_interference_scanner\nrf_interference_scanner.ino" FileLine="67" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="250" HitCountType="4" Language="C++" LocationType="3" Tag="&lt;vmbp Id='6384c90d-6556-4686-ae71-2067a8a9c559'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="1">
+        <Source>60			++i;
+61		}
+62		printf("\n\r");
+63	}
+64	
+65	const int num_reps = 100;
+66	
+--&gt;67	void loop(void)
+68	{
+69		// Clear Previous measurement values
+70		memset(values, 0, sizeof(values));
+71	
+72		// Scan all channels num_reps times
+73		int rep_counter = num_reps;
+74		while (rep_counter--)
+75		{
+76			int i = num_channels;
+</Source>
+        <MessageVariables>
+          <MessageVariable Name="millis()" Index="1" />
+        </MessageVariables>
+      </BreakPoint>
+    </BreakPoints>
+  </Program>
+</VisualMicro>
